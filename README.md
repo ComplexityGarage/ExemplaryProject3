@@ -1,4 +1,4 @@
-# Title of the project
+# Economic driving module
 # Authors 
 - Zuzanna Przygodzka
 # Description of the project 
