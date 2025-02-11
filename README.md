@@ -12,7 +12,7 @@ In addition to its functionality, the module has been designed with a custom 3D-
 2. **LCD Display**: Feedback like "Too fast starting" or "Too fast braking," along with graphical visualization of acceleration levels.
 3. **Custom Enclosure**: A compact and practical housing for the hardware, created with a 3D printer for added portability and protection.
 
-![Moduł jazdy ekonomicznej](images/module.jpg)
+![Moduł jazdy ekonomicznej](images/c67f68ea-f3cb-4466-ab36-175a18956dcf.jpg)
 
 # Science and tech used 
 - **Arduino Microcontroller**: Processes sensor data and drives the LCD output.
