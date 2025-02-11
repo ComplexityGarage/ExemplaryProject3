@@ -1,0 +1,38 @@
+Connections Guide for Economic Driving Module
+
+1. MPU6050 Accelerometer
+
+VCC: Connect to 5V (power supply).
+GND: Connect to GND (ground).
+SCL: Connect to pin A5 on Arduino (I2C clock line).
+SDA: Connect to pin A4 on Arduino (I2C data line).
+2. 16x2 LCD Display
+
+VSS: Connect to GND (ground).
+VDD: Connect to 5V (power supply).
+V0: Connect to the middle pin of a 10kΩ potentiometer for contrast adjustment.
+RS: Connect to pin 12 on Arduino.
+E: Connect to pin 11 on Arduino.
+D4: Connect to pin 5 on Arduino.
+D5: Connect to pin 4 on Arduino.
+D6: Connect to pin 3 on Arduino.
+D7: Connect to pin 2 on Arduino.
+RW: Connect to GND.
+3. ESP8266 WiFi Module
+
+VCC: Connect to 3.3V (important to avoid 5V, as it may damage the module).
+GND: Connect to GND (ground).
+TX: Connect to pin 7 on Arduino (software serial RX).
+RX: Connect to pin 8 on Arduino (software serial TX) through a voltage divider (reduce 5V to 3.3V).
+4. Potentiometer (for LCD Contrast)
+
+One pin to GND.
+One pin to 5V.
+Middle pin to V0 of the LCD.
+5. Arduino Uno
+
+5V: Supplies power to MPU6050 and LCD.
+GND: Shared ground for all components.
+A4/A5: I2C lines for the MPU6050.
+Digital Pins 2-12: Used for LCD control.
+Digital Pins 7/8: Used for Software Serial with the ESP8266.
